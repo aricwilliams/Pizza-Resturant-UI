@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Restaurant</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+        <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+     
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+     
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Lora&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Lora&family=Montserrat:ital,wght@1,100&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Lora&family=Montserrat:ital,wght@1,100&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+
+</head>
+<div class="showcase">
+    <div class="container">
+        <header class="d-flex flex-wrap justify-content-center align-items-center py-3 mb-4 header">
+            <a class="d-flex align-items-center justify-content-center me-auto logo"
+                href="http://127.0.0.1:5500/index.html">
+                <img src="/img/logo.png" width="150px">
+            </a>
+            <ul class="nav overlay-content justify-content-center align-items-center">
+                <li class="nav-item"><a class="nav-link" href="#menu-part">Menu</a></li>
+                <li class="nav-item"><a class="nav-link" href="#featured-part">Pizza Special</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about-part">About</a></li>
+                <li class="nav-item"><i class="nav-link white fas fa-shopping-cart"></i></li>
+            </ul>
+           
+            <!-- <div class="col-2 col-lg-3 col-xl-3 noSpace white">
+                <div class="row">
+                    <p class="nav-contact white"><span><i class="fa fa-phone-volume"></i></span> 910-232-3433<br>contact us for more info</p>
+                </div>
+            </div> -->
+    
+            <!-- <div class="text-end">
+                <button type="button nav-btn" class="btn-danger nav-btn"><span><i class="fa fa-phone-volume"></i></span> 910-232-3433<br>Book A Table</button>
+            </div> -->
+
+            <div id="menu-btn" class="white fas fa-bars"></div>
+        </header>
+        
+        <div class="showcase-content">
+            <h1>Welcome To Cook</h1>
+            <p>Best Pizza In Wilmington NC</p>
+            <button type="button nav-btn" class="btn btn-danger">View Menu</button>
+    </div>
+</div>
+</div>
+
+<!-- ////////////////////////Aboutus /////////////////////////////// -->
+<div class="container about-us" id="about-part">
+    <div class="row">
+        <div class="col-auto menu-title">
+            <h2>Our Story</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 ">
+          <div class="h-100 p-5 text-black ">
+            <h2>Fresh taste locally,<br><span class="about-title">Best price ever.</span></h2>
+            <p class="p-t p-b">Owner and Chef, Tone Lee opened Catch Restaurant in 2006 in hopes that diners would catch his passion for North Carolina seafood. His menu features dishes that highlight seasonal flavors – from sweet potatoes, to blackberries, fresh herbs, and heirloom vegetables. Every ingredient in his delicious cuisines is consciously sourced from organic growers and local. </p>
+            <button type="button nav-btn" class="btn btn-danger">View Menu</button>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+          <div class="h-100 p-5 about-pic">
+            <a><img src="img/about.png"></a>
+          </div>
+        </div>
+      </div>
+</div>
+
+<div class="menu-section">
+    <div class="container menu">
+        <div class="row">
+            <div class="col-auto menu-title" id="menu-part">
+                <h2>Pizza Menu</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <div class="row">
+                    <div class="col-auto"><a><img src="img/pizza (1).png" height="100px"></a></div>
+                    <div class="col-auto">
+                        <div class="row p-b">
+                            <h4 class="col-auto">Spicy Chicken</h4>
+                            <span class="col-auto price">$17</span>
+                        </div>
+                        <p>Chicken, Beef, chili, cheese & beans with.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="row align-items-center">
+                    <div class="col-auto"><a><img src="img/pizza (2).png" height="100px"></a></div>
+                    <div class="col-auto">
+                        <div class="row p-b">
+                            <h4 class="col-auto">Beef Pepperoni</h4>
+                            <span class="col-auto price">$27</span>
+                        </div>
+                        <p>Chicken, Beef, chili, cheese & beans with.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row p-t">
+            <div class="col-6">
+                <div class="row align-items-center">
+                    <div class="col-auto"><a><img src="img/pizza (3).png" height="100px"></a></div>
+                    <div class="col-auto">
+                        <div class="row p-b">
+                            <h4 class="col-auto">Soup Pizza</h4>
+                            <span class="col-auto price">$15</span>
+                        </div>
+                        <p>Chicken, Beef, chili, cheese & beans with.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="row align-items-center">
+                    <div class="col-auto"><a><img src="img/pizza (4).png" height="100px"></a></div>
+                    <div class="col-auto">
+                        <div class="row p-b">
+                            <h4 class="col-auto">Spicy Chicken</h4>
+                            <span class="col-auto price">$37</span>
+                        </div>
+                        <p>Chicken, Beef, chili, cheese & beans with.</p>
+                    </div>
+                </div>
+            </div>
+        </div> <div class="row p-t">
+            <div class="col-6">
+                <div class="row align-items-center">
+                    <div class="col-auto"><a><img src="img/pizza (5).png" height="100px"></a></div>
+                    <div class="col-auto">
+                        <div class="row p-b">
+                            <h4 class="col-auto">Spicy Chicken</h4>
+                            <span class="col-auto price">$37</span>
+                        </div>
+                        <p>Chicken, Beef, chili, cheese & beans with.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="row align-items-center">
+                    <div class="col-auto"><a><img src="img/pizza (6).png" height="100px"></a></div>
+                    <div class="col-auto">
+                        <div class="row p-b">
+                            <h4 class="col-auto">Spicy Chicken</h4>
+                            <span class="col-auto price">$37</span>
+                        </div>
+                        <p>Chicken, Beef, chili, cheese & beans with.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row p-t">
+            <div class="col-6">
+                <div class="row align-items-center">
+                    <div class="col-auto"><a><img src="img/pizza (7).png" height="100px"></a></div>
+                    <div class="col-auto">
+                        <div class="row p-b">
+                            <h4 class="col-auto">Spicy Chickehn</h4>
+                            <span class="col-auto price">$37</span>
+                        </div>
+                        <p>Chicken, Beef, chili, cheese & beans with.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="row align-items-center">
+                    <div class="col-auto"><a><img src="img/pizza.png" height="100px"></a></div>
+                    <div class="col-auto">
+                        <div class="row p-b">
+                            <h4 class="col-auto">Spicy Chicken</h4>
+                            <span class="col-auto price">$37</span>
+                        </div>
+                        <p>Chicken, Beef, chili, cheese & beans with.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="row">
+    <div class="col-auto feature-title" id="featured-part">
+        <h2>Pizza Special</h2>
+    </div>
+</div>
+<div class=" d-fle flex-md-equa feature-ite d-md-gri gap- row noSpace fig">
+    <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3 item1 overlay-text">
+        <figcaption>
+            <h2>Best Seller <span>Veggie Lover</span> Special</h2>
+            <p>Pizza is officially a vegetable. This garden delight has all the fresh veggie toppings you love: mushrooms, red onions, green bell peppers, Roma tomatoes and black olives. This is served with fresh picked veggies right from Wilmington.</p>
+            <a href="#"></a>
+        </figcaption>	
+    </div>
+    <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3 item2 overlay-text">
+        <figcaption>
+            <h2>Tasty Zest <span>Hawaiian</span> Pizza</h2>
+            <p>Give your taste buds a tropical vacation with this amped up Hawaiian pizza. It's got tasty chicken, ham, pineapple AND green peppers.</p>
+            <a href="#"></a>
+        </figcaption>
+      </div>
+      <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3 item3 overlay-text">
+        <figcaption>
+            <h2>Mouth Watering <span>Omega 3</span> Pizza</h2>
+            <p>This loaded pizza is the perfect choice for family dinner or a lunch with your crew. Includes pepperoni, seasoned pork, beef, mushrooms, green bell peppers and red onions.</p>
+            <a href="#"></a>
+        </figcaption>
+    </div>
+    <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3 item4 overlay-text">
+        <figcaption>
+            <h2>Fresh <span>Meat Meaty</span> Pizza</h2>
+            <p>Ever wished your pepperoni pizza had more pepperoni? Of course you did. This oven-hot pizza has 50% more pepperoni than our average pizza pie.</p>
+            <a href="#"></a>
+        </figcaption>
+    </div>
+</div>
+<div class=" d-fle flex-md-equa feature-ite d-md-gri gap- row noSpace fig">
+    <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3 item1 overlay-text">
+        <figcaption>
+            <h2>Best Seller <span>Veggie Lover</span> Special</h2>
+            <p>Pizza is officially a vegetable. This garden delight has all the fresh veggie toppings you love: mushrooms, red onions, green bell peppers, Roma tomatoes and black olives. This is served with fresh picked veggies right from Wilmington.</p>
+            <a href="#"></a>
+        </figcaption>	
+    </div>
+    <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3 item2 overlay-text">
+        <figcaption>
+            <h2>Tasty Zest <span>Hawaiian</span> Pizza</h2>
+            <p>Give your taste buds a tropical vacation with this amped up Hawaiian pizza. It's got tasty chicken, ham, pineapple AND green peppers.</p>
+            <a href="#"></a>
+        </figcaption>
+      </div>
+      <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3 item3 overlay-text">
+        <figcaption>
+            <h2>Mouth Watering <span>Omega 3</span> Pizza</h2>
+            <p>This loaded pizza is the perfect choice for family dinner or a lunch with your crew. Includes pepperoni, seasoned pork, beef, mushrooms, green bell peppers and red onions.</p>
+            <a href="#"></a>
+        </figcaption>
+    </div>
+    <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3 item4 overlay-text">
+        <figcaption>
+            <h2>Fresh <span>Meat Meaty</span> Pizza</h2>
+            <p>Ever wished your pepperoni pizza had more pepperoni? Of course you did. This oven-hot pizza has 50% more pepperoni than our average pizza pie.</p>
+            <a href="#"></a>
+        </figcaption>
+    </div>
+</div>
+<!-- <div class=" d-flex flex-md-equal feature-item d-md-grid gap-1">
+    <div class="col-3 item1">
+    </div>
+    <div class="col-3 item2">
+      </div>
+      <div class="col-3 item3">
+    </div>
+    <div class="col-3 item4">
+    </div>
+</div> -->
+
+
+
+<div class="footer-container">
+    <footer class="py-5 footer-bg">
+      <div class="row justify-content-center">
+        <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3">
+          <a class="d-flex align-items-center  me-auto justify-content-center"
+                href="http://127.0.0.1:5500/index.html">
+                <img src="/img/logo.png" width="150px">
+            </a>
+        </div>
+  
+        <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3 footer-p">
+            <p class="p">We represent the best restaurants all over the world.  We partner with local businesses that believe like us in providing the best customer service ever!</p>
+        </div>
+  
+        <div class="col-sm-12 col-md-12 col-lg-5 col-xl-3 offset-1">
+          <form>
+            <div class="d-flex w-100 gap-2">
+              <label for="newsletter1" class="visually-hidden">Email address</label>
+              <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+              <button type="button nav-btn" class="btn2 btn-danger">Book A Table</button>
+            </div>
+          </form>
+        </div>
+    </div>
+  
+      <div class="d-flex justify-content-between py-4 my-4 border-top container">
+        <p>&copy; 2021 Cook Inc. All rights reserved.</p>
+        <ul class="list-unstyled d-flex">
+          <li class="ms-3"><a class="link-white" href="#"><i class="fab fa-twitter"></i></a></li>
+          <li class="ms-3"><a class="link-white" href="#"><i class="fab fa-instagram-square"></i></a></li>
+          <li class="ms-3"><a class="link-white" href="#"><i class="fab fa-facebook-square"></i></a></li>
+        </ul>
+      </div>
+    </footer>
+  </div>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+
+
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+        crossorigin="anonymous"></script> -->
+</body>
+
+</html>
